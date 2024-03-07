@@ -36,3 +36,4 @@ dropdown_animals = Select(navegador.find_element(By.XPATH, '//*[@id="animals"]')
 dropdown_animals.select_by_visible_text("Big Baby Cat")
 assert dropdown_animals.first_selected_option.text == 'Big Baby Cat'
 print('first_selected: passed')
+
